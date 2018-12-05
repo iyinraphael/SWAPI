@@ -8,7 +8,11 @@
 
 import Foundation
 
-//Individual Entry
-struct PersonSearchResult : Codable {
-
+//RULE: Always do a few searches by hand and see what gets sent back before you do your coding
+struct PersonSearchResult: Codable {
+    
+    let results: [Person]
 }
+
+//When working with JSON you will need a lot of classes
+//https://swapi.co/people/?search=le

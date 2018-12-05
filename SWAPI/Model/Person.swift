@@ -8,6 +8,15 @@
 
 import Foundation
 
+//https://swapi.co/documentation
+//Individual entry - Also is non exhaustive
 struct Person: Codable {
-    <#fields#>
+    let name: String
+    let birthYear: String //note: this is different from API
+    let height: String
+    
 }
+
+/*
+ birth_year uses snake case and it's common for the Web
+ */
