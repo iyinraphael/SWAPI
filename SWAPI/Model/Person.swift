@@ -14,7 +14,6 @@ struct Person: Codable {
     let name: String
     let birthYear: String //note: this is different from API
     let height: String
-    
 }
 
 /*
